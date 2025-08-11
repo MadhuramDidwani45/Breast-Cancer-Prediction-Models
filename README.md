@@ -1,11 +1,11 @@
-# Breast Cancer Prediction Models: Machine Learning for Medical Diagnosis
+# Breast Cancer Prediction Models: Logistic Regression vs Decision Tree
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Latest-green)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 📋 Table of Contents
+## Table of Contents
 - [Project Overview](#-project-overview)
 - [Problem Statement](#-problem-statement)
 - [Dataset Description](#-dataset-description)
@@ -18,19 +18,19 @@
 - [Contributing](#-contributing)
 - [License](#-license)
 
-## 🎯 Project Overview
+## Project Overview
 
-Breast cancer is one of the most common cancers worldwide, with early detection being crucial for successful treatment and improved patient outcomes. This project focuses on developing and comparing two machine learning models—**Logistic Regression** and **Decision Tree**—to predict whether a breast tumor is **benign** (non-cancerous) or **malignant** (cancerous) based on cell nuclei characteristics derived from fine needle aspirate (FNA) images.
+Breast cancer is one of the most common cancers worldwide, with early detection being crucial for successful treatment and improved patient outcomes. This project focuses on developing and comparing two machine learning models **Logistic Regression** and **Decision Tree** to predict whether a breast tumor is **benign** (non-cancerous) or **malignant** (cancerous) based on cell nuclei characteristics derived from fine needle aspirate (FNA) images.
 
 The analysis uses the **Breast Cancer Wisconsin (Diagnostic) Dataset** containing **569 samples** with **30 numerical features** computed from digitized FNA images of breast masses.
 
-## 🎯 Problem Statement
+## Problem Statement
 
-**Goal**: Build and compare two machine learning models—**Logistic Regression** and **Decision Tree**—for binary classification to predict tumor malignancy based on cell nuclei measurements from breast tissue samples.
+**Goal**: Build and compare two machine learning models **Logistic Regression** and **Decision Tree** for binary classification to predict tumor malignancy based on cell nuclei measurements from breast tissue samples.
 
 **Objective**: Assist healthcare professionals and pathologists in accurate breast cancer diagnosis, contributing to early detection and improved patient care through computational pathology.
 
-## 📊 Dataset Description
+## Dataset Description
 
 The dataset consists of **569 instances and 32 columns**, representing breast mass samples with detailed cell nuclei measurements:
 
@@ -71,58 +71,6 @@ The 30 numerical features are grouped into three statistical categories:
 
 **Data Source**: [Breast Cancer Wisconsin Dataset - Kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
-## 🚀 Installation
-
-### Prerequisites
-- Python 3.8 or higher
-- Jupyter Notebook
-
-### Setup Instructions
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/breast-cancer-prediction.git
-   cd breast-cancer-prediction
-   ```
-
-2. **Create virtual environment (recommended)**
-   ```bash
-   python -m venv breast-cancer-env
-   source breast-cancer-env/bin/activate  # On Windows: breast-cancer-env\Scripts\activate
-   ```
-
-3. **Install required packages**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### Required Dependencies
-```
-numpy>=1.21.0
-pandas>=1.3.0
-scikit-learn>=1.0.0
-matplotlib>=3.4.0
-seaborn>=0.11.0
-plotly>=5.0.0
-jupyter>=1.0.0
-```
-
-## 💻 Usage
-
-1. **Launch Jupyter Notebook**
-   ```bash
-   jupyter notebook
-   ```
-
-2. **Open the main notebook**
-   - Navigate to `breast_cancer_analysis.ipynb`
-   - Run all cells to reproduce the analysis
-
-3. **Alternative: Run Python script**
-   ```bash
-   python breast_cancer_prediction.py
-   ```
-
 ## 📈 Model Performance
 
 ### Models Implemented
@@ -157,15 +105,6 @@ accuracy                                0.95       172
 macro avg           0.95      0.95      0.95       172
 weighted avg        0.95      0.95      0.95       172
 ```
-
-## 🛠 Technologies Used
-
-- **Programming Language**: Python 3.8+
-- **Development Environment**: Jupyter Notebook
-- **Machine Learning**: Scikit-learn
-- **Data Manipulation**: Pandas, NumPy
-- **Data Visualization**: Matplotlib, Seaborn
-
 ## 📊 Results
 
 ### Key Findings
@@ -210,7 +149,3 @@ weighted avg        0.95      0.95      0.95       172
 ### Conclusion
 Both models demonstrated effective predictive performance, but Logistic Regression provided more consistent results with higher precision and recall compared to the Decision Tree. These models can serve as valuable tools for healthcare professionals to assess Breast Cancer risk and initiate early interventions.
 ---
-
-⭐ **If this project helps advance medical AI research, please consider giving it a star!** ⭐
-
-*This project is developed for educational and research purposes. Always consult medical professionals for actual diagnosis and treatment decisions.*
