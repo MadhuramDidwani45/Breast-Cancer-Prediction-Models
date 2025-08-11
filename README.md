@@ -147,5 +147,5 @@ weighted avg        0.95      0.95      0.95       172
 - Compared the performance of the models to identify the most reliable one for diabetes prediction.
 
 ### Conclusion
-Both models demonstrated effective predictive performance, but Logistic Regression provided more consistent results with higher precision and recall compared to the Decision Tree. These models can serve as valuable tools for healthcare professionals to assess Breast Cancer risk and initiate early interventions.
+**Both models demonstrated effective predictive performance, but Logistic Regression provided more consistent results with higher precision and recall compared to the Decision Tree. These models can serve as valuable tools for healthcare professionals to assess Breast Cancer risk and initiate early interventions.**
 ---
