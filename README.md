@@ -5,19 +5,6 @@
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Latest-green)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Table of Contents
-- [Project Overview](#-project-overview)
-- [Problem Statement](#-problem-statement)
-- [Dataset Description](#-dataset-description)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Model Performance](#-model-performance)
-- [Project Structure](#-project-structure)
-- [Technologies Used](#-technologies-used)
-- [Results](#-results)
-- [Contributing](#-contributing)
-- [License](#-license)
-
 ## Project Overview
 
 Breast cancer is one of the most common cancers worldwide, with early detection being crucial for successful treatment and improved patient outcomes. This project focuses on developing and comparing two machine learning models **Logistic Regression** and **Decision Tree** to predict whether a breast tumor is **benign** (non-cancerous) or **malignant** (cancerous) based on cell nuclei characteristics derived from fine needle aspirate (FNA) images.
